@@ -1,6 +1,6 @@
 {
   "name": "karma-safari-launcher",
-  "version": "1.0.0",
+  "version": "1.0.0-sov",
   "description": "A Karma plugin. Launcher for Safari.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,10 @@
     "safari"
   ],
   "author": "Vojta Jina <vojta.jina@gmail.com>",
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "wd": "^1.1.3"
+  },
   "peerDependencies": {
     "karma": ">=0.9"
   },
